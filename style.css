@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(104, 187, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 600px;
+    height: 700px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    background-color: rgb(236, 236, 231);
+    box-shadow: 2px 2px 10px 4px gainsboro;
+}
+
+.content {
+    /* border: 2px solid black; */
+    margin: 20px;
+    height: 95%;
+}
+
+h2 {
+    text-align: center;
+}
+#formError{
+    text-align: center;
+    justify-content: center;
+}
+
+.input {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+
+label {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divButton {
+    display: flex;
+    text-align: center;
+    justify-content: end;
+}
+
+.buton {
+    color: white;
+    font-size: 20px;
+    padding: 7px 70px;
+    margin-right: 35px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* #nameMessage,#surnameMessage,#emailMessage ,#passwordMessage ,#telMessage{
+    margin-top: 10px;
+} */
